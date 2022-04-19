@@ -1,0 +1,33 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+          "modules": true
+        }
+    },
+    "plugins": [
+        "vue"
+    ],
+    "rules": {
+        "quotes" : ["error", "single"],
+        "linebreak-style" : "off",
+        "no-console": "off",
+        "prefer-const": "off",
+        "no-else-return": "off",
+        "max-len": "off",
+        "consistent-return":"off",
+        "prefer-object-spread": "off",
+        "arrow-parens": "off",
+        "no-shadow": "off"
+    }
+}
