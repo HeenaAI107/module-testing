@@ -14,4 +14,4 @@ jobs:
         node-version: '12.13.x'
         registry-url: 'https://registry.npmjs.org'
     - run: npm install
-    - run: npm run testest
+    - run: npm run test
