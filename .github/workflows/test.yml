@@ -1,9 +1,9 @@
 name: testing-module
 on:
   push:
-    branches: [ master ]
+    branches: [ staging ]
   pull_request:
-    branches: [ master ]
+    branches: [ staging ]
 jobs:
   cancel:
     name: Cancel Previous Runs
