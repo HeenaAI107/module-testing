@@ -1,14 +1,21 @@
 {
-  "name": "contentstack-content-delivery-module",
-  "version": "0.0.18",
-  "description": "",
+  "name": "testing-module",
+  "version": "0.0.0",
+  "description": "Testing a module",
   "main": "lib/module.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
     "lint": "eslint ./"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeenaAI107/module-testing.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HeenaAI107/module-testing/issues"
+  },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^8.2.3",
